@@ -4,10 +4,10 @@
 # 	-e DISPLAY=unix$DISPLAY \
 # 	--device /dev/snd:/dev/snd \
 # 	--device /dev/dri:/dev/dri \
-# 	jess/plex-home-theater
+# 	cloudconsulted/desktop-docker/plex-home-theater
 #
 FROM ubuntu:14.04
-MAINTAINER Jessie Frazelle <jess@linux.com>
+MAINTAINER John Wooten/CONSULTED <jwooten@cloudconsulted.com>
 
 RUN apt-get update && apt-get install -y \
 	software-properties-common \
