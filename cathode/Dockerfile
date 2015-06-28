@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER Jessica Frazelle <jess@docker.com>
+MAINTAINER John Wooten/CONSULTED <jwooten@cloudconsulted.com>
 
 RUN apt-get update && apt-get install -y \
 	build-essential \
