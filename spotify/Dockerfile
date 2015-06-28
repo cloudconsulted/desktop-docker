@@ -8,10 +8,10 @@
 #	-v $HOME/.spotify/config:/home/spotify/.config/spotify \
 #	-v $HOME/.spotify/cache:/home/spotify/spotify \
 #	--name spotify \
-#	jess/spotify
+#	cloudconsulted/desktop-docker-spotify
 #
 FROM ubuntu:14.04
-MAINTAINER Jessie Frazelle <jess@linux.com>
+MAINTAINER John Wooten/CONSULTED <jwooten@cloudconsulted.com>
 
 RUN apt-get update && apt-get install -y \
 	libpangoxft-1.0-0 \
