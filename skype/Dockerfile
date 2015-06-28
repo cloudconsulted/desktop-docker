@@ -1,5 +1,5 @@
 # Run skype in a container, requires pulseaudio
-# (but I have a container for that)
+# (container desktop-docker-pulseaudio linked for this)
 #
 # docker run -v /tmp/.X11-unix:/tmp/.X11-unix \
 #	-e DISPLAY=unix$DISPLAY \
