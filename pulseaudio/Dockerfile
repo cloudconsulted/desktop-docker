@@ -7,10 +7,10 @@
 #	-p 4713:4713 \
 #	-v /var/run/dbus:/var/run/dbus \
 #	-v /etc/machine-id:/etc/machine-id \
-#	jess/pulseaudio
+#	cloudconsulted/desktop-docker-pulseaudio
 #
 FROM debian:sid
-MAINTAINER Jessica Frazelle <jess@docker.com>
+MAINTAINER John Wooten/CONSULTED <jwooten@cloudconsulted.com>
 
 RUN apt-get update && apt-get install -y \
 	alsa-utils \
