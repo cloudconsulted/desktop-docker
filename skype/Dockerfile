@@ -6,7 +6,7 @@
 #	--link pulseaudio:pulseaudio \
 #	-e PULSE_SERVER=pulseaudio \
 #	--device /dev/video0 \
-#	jess/skype
+#	cloudconsulted/desktop-docker-skype
 #
 FROM debian:jessie
 MAINTAINER John Wooten/CONSULTED <jwooten@cloudconsulted.com>
