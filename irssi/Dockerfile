@@ -1,4 +1,5 @@
 FROM debian:jessie
+MAINTAINER John Wooten/CONSULTED <jwooten@cloudconsulted.com>
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
 		ca-certificates \
