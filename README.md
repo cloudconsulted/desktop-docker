@@ -1,9 +1,5 @@
-## dockerfiles
+## desktop dockerfiles
 
-This is a repo to hold various Dockerfiles for images I create.
+This is a forked repo of jfrazelle's excellent work on docker desktop containers.
 
-I try to make sure each has a command at the top for running it, 
-if a file you are looking at does not have a command, please
-pull request it!
-
-Almost all of these live on dockerhub under [jess](https://registry.hub.docker.com/repos/jess/).
+Fork attempts at sanitizing and corrections to fit cloudconsulted systems for demo and testing purposes.
