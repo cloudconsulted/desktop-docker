@@ -1,3 +1,29 @@
+# Docker 1.8
+# $ docker run -it \
+#     --net host \ # may as well YOLO
+#     --cpuset 0 \ # control the cpu
+#     --memory 512mb \ # max memory it can use
+#     -v /tmp/.X11-unix:/tmp/.X11-unix \ # mount the X11 socket
+#     -e DISPLAY=unix$DISPLAY \ # pass the display
+#     -v $HOME/Downloads:/root/Downloads \ # optional, but nice
+#     -v $HOME/.config/google-chrome/:/data \ # if you want to save state
+#     --device /dev/snd \ # so we have sound
+#     --name chrome \
+#     cloudconsulted/desktop-docker-chrome
+# 
+# Docker 1.7-prior
+# $ docker run -it \
+#     --net host \ # may as well YOLO
+#     --cpuset 0 \ # control the cpu
+#     --memory 512mb \ # max memory it can use
+#     -v /tmp/.X11-unix:/tmp/.X11-unix \ # mount the X11 socket
+#     -e DISPLAY=unix$DISPLAY \ # pass the display
+#     -v $HOME/Downloads:/root/Downloads \ # optional, but nice
+#     -v $HOME/.config/google-chrome/:/data \ # if you want to save state
+#     -v /dev/snd:/dev/snd --privileged \ # so we have sound
+#     --name chrome \
+#     cloudconsulted/desktop-docker-chrome
+
 # Base docker image
 FROM debian:sid
 MAINTAINER John Wooten/CONSULTED <jwooten@cloudconsulted.com>
